@@ -28,9 +28,9 @@
   		
   			<li class = "active"><a href = "home.jsp"><span class="glyphicon glyphicon-home"></span> Home </a></li>
   		<!--  	<li><a href = "login.jsp"> Login </a></li>  -->
-  			<li><a href = "about.jsp"><span class="glyphicon glyphicon-user"></span> Contact </a></li>
+  			<li><a href = "Register.jsp"> Register </a></li>
   			<li><a href = "login_bs.jsp"> Login_bs </a></li>
-			<li><a href = "Register.jsp"> Register </a></li>
+			<li><a href = "about.jsp"><span class="glyphicon glyphicon-user"></span> Contact </a></li>
   		</ul>
   	  	
   	</div>
