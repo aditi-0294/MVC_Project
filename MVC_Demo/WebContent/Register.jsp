@@ -12,7 +12,7 @@
 
 <div class="container">
 
-    <form action="Login_Insert" class="well form-horizontal" method="get" >
+    <form action="Login_Insert" class="well form-horizontal" method="post" >
 <fieldset>
 
 <!-- Form Name -->
@@ -27,7 +27,7 @@
   <div class="col-md-4 inputGroupContainer">
   <div class="input-group">
   <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="CUSTOMER_ID" placeholder="USER ID" class="form-control"  type="text">
+  <input  name="CUSTOMER_ID" id = "Customer Id." placeholder="Customer ID" class="form-control"  type="text">
     </div>
   </div>
 </div>
