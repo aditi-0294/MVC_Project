@@ -1,3 +1,5 @@
+<!--  Errors are not reported ... Instead we get a different / no output -- for html/css/bs etc. ...  -->
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
     
@@ -11,7 +13,7 @@
 </head>
 <body>
 	
-		<h2 align = "center">Welcome : </h2>
+		<h2 align = "center">Welcome ${requestScope.username} :  </h2> <!-- LHS in Login_Controller -->
 		<h3 align = "left">Success - Welcome to user Home page .... </h3>
 
 
