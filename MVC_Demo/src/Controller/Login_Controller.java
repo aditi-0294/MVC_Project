@@ -37,6 +37,7 @@ public class Login_Controller extends HttpServlet {
 			
 			if(loginDAO.isValid(loginobj)) {
 				
+				request.setAttribute("username",loginobj.getLogin()); // added comment
 				RequestDispatcher dispatch = request.getRequestDispatcher("success.jsp") ;
 				dispatch.forward(request,response);
 			}
