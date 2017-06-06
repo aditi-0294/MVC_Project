@@ -1,0 +1,25 @@
+
+
+@CHARSET "ISO-8859-1";
+
+#customer_id
+ {
+ 	color : blue ;
+ 	background-color : red ;
+ 	font-family : Tahoma ;
+ 	font-size : 14px ;
+ }
+
+#customer_name
+ {
+  	color : red ;
+  	background-color : blue ;
+  	font-family : Monotype Corsiva ;
+  	font-size : 17px ;
+ }
+ 
+ #customer_password
+  {
+    color : pink ;
+    background-color : yellow ;
+  }
